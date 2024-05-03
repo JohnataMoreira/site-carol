@@ -1,0 +1,96 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f9edce;
+}
+
+.galeria{
+    display: block;
+    position: absolute;
+    width: 30%;
+    margin:  8px 8px 0px 8px;
+    background-color: #000;
+}
+
+header{ /* Nome(h1) e foto(#fotoPerfil)*/
+    height: 320px;
+    margin: 8px;
+    background-color: rgb(#000);
+    margin-bottom: 40px;
+    font-size: 0px;
+    background-color: #000;
+}
+
+aside{
+    margin-top: 200px;
+    width: 30%;
+    display: block;
+    float: left;
+    background-color: blueviolet;
+}
+
+#fotoPerfil{ /*header > div > #fotoPerfil*/
+    display: block;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+#call{ /* nav(#call)*/
+    display: inline-flex;
+    margin-left: 140px;
+    color: black;
+    align-content: space-between;
+    padding: 6px;
+}
+
+nav h2{ /*h2 > nav > header*/
+    display:contents;
+    align-content: center;
+    margin-left: 50px;
+    padding: 8px;
+    align-content: space-between;
+}
+
+/*nav a{
+
+}*/
+
+.galeria{ /*Fotos a esquerda*/
+    display: block;
+    position: relative;
+    margin: 8px;
+    max-width: 300px;
+    height: 300px;
+}
+
+.container{ /*lado direito do site*/
+    display: flexbox;
+    float: center;
+    font-family: 'Lobster two';
+    font-size: 12pt;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+/*.textos{
+
+}
+
+.fotos-container{
+
+}*/
+
+#titulo{ /*h2 container*/
+    font-size: 68px;
+    color: rgb(69, 68, 6);
+}
+
+p{ /*p container*/
+    display: flexbox;
+    float: center;
+    text-align: center;
+    font-size: 28px;
+    padding: 30px;
+}
